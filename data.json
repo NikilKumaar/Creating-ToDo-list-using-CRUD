@@ -1,0 +1,11 @@
+{
+  "todos": [
+    {
+      "id": "268f",
+      "user": "Santhiya",
+      "task": "Studying about front-end",
+      "deadline": "2024-03-22",
+      "status": "Ongoing"
+    }
+  ]
+}

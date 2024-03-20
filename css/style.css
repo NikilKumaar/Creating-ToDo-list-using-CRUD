@@ -1,0 +1,113 @@
+h1
+{
+    text-align: center;
+    background-color: rgb(242, 255, 240);
+    color: rgb(11, 2, 2);
+}
+
+.container
+{
+    display: flex;
+}
+.forms
+{
+    width: 30vw;
+    padding: 10px;
+    background: linear-gradient(to bottom,rgb(0, 128, 85),rgb(0, 255, 136));
+
+    #formhead
+    {
+        text-align: center;
+        color:antiquewhite;
+        font-size: large;
+    }
+
+    #todoform
+    {
+        padding: 5px;
+        margin: 10px;
+
+        div
+        {
+            margin-bottom: 5px;
+        }
+
+    }
+    label
+    {
+        font-size: larger;
+    }
+
+    .inputTodo
+    {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .submit-button
+    {
+        background-color: rgb(9, 222, 222);
+    }
+    .submit-button:hover
+    {
+        cursor: pointer;
+        background: none;
+    }
+
+    .clear-button
+    {
+        background-color: rgb(221, 228, 235);
+    }
+    .clear-button:hover
+    {
+        background: none;
+    }
+    
+ }
+#todos
+{
+    display: flex;
+    flex-direction: column;
+    padding: 1vmin;
+    margin: 1vmin;
+    justify-content: space-evenly;
+    width: 100%;
+    
+    
+    
+    div
+    {
+        display: flex;
+        text-decoration: none;
+        justify-content: space-evenly;
+        margin: 10px;
+    
+    button {
+            background: none;
+            border: none;
+            border-bottom: 10px solid black;
+            font-size: larger;
+            cursor: pointer;
+        }
+    #delete
+    {
+        background-color:darkcyan;
+        font-size: larger;
+    }
+    }
+}
+
+
+.todo.Ongoing
+{
+    background-color: rgba(255, 255, 0, 0.703);
+}
+.todo.pending
+{
+    background-color: rgba(255, 0, 0, 0.516);
+}
+.todo.completed
+{
+    background-color: rgba(0, 128, 0, 0.575);
+}
+
